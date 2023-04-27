@@ -37,7 +37,6 @@ Cette commande installera toutes les dépendances requises pour HUG API.
 Lancez l'application en utilisant la commande suivante :
 
 ```python
-CLI
 python app.py
 ```
 

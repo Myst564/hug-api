@@ -9,7 +9,7 @@ HUG API nécessite Python 3.6 ou une version ultérieure pour fonctionner. Si vo
 ## Étape 2 : Cloner le référentiel de code source
 Clonez le référentiel de code source de HUG API en utilisant la commande suivante :
 ```python
-git clone https://github.com/votre_utilisateur/hup-api.git
+git clone https://github.com/ethanvuillemin/hug-api.git
 ```
 ## Étape 3 : Créer un environnement virtuel
 Créez un environnement virtuel Python en utilisant la commande suivante :

@@ -10,11 +10,11 @@ url_station = 'https://www.juleshaag.fr/devIA/devAPI/station_information.json'
 def hello():
     return 'Hello, world!'
 
-@hug.get('/var')
-def var():
+@hug.get('/val')
+def val():
     return random.randint(0, 100)
 
-@api.urls('/var2', examples='nb=1')
+@api.urls('/val2', examples='nb=1')
 def generate_random_values(nb: hug.types.number):
     values = [random.randint(-1000, 1000) for _ in range(nb)]
     data = {"values": values}
